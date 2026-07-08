@@ -1,0 +1,50 @@
+{
+  "$id": "1",
+  "$type": "GameSettings, Assembly-CSharp",
+  "Language": "Chinese (Simplified)",
+  "RunInBackground": false,
+  "ActivePause": true,
+  "DisallowMultipleBlockerMenu": true,
+  "ShowTooltips": true,
+  "DemoMode": true,
+  "UseColorblindMode": false,
+  "ColorblindRed": {
+    "$type": "UnityEngine.Color, UnityEngine.CoreModule",
+    "r": 1.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "ColorblindGreen": {
+    "$type": "UnityEngine.Color, UnityEngine.CoreModule",
+    "r": 0.0,
+    "g": 1.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "ColorblindBlue": {
+    "$type": "UnityEngine.Color, UnityEngine.CoreModule",
+    "r": 0.0,
+    "g": 0.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "AllowScreenShaking": true,
+  "GeneralVolume": 1.0,
+  "SfxVolume": 1.0,
+  "UiVolume": 0.75,
+  "MusicVolume": 0.75,
+  "ScreenWidth": 1920,
+  "ScreenHeight": 1080,
+  "ScreenRefreshRate": 60,
+  "CurrentDisplay": 0,
+  "FullScreen": true,
+  "VSync": true,
+  "Brightness": 1.0,
+  "Gamma": 1.0,
+  "DynamicShadows": true,
+  "Bloom": false,
+  "FilmGrain": false,
+  "LimitFramerate": true,
+  "TargetFramerate": 120
+}

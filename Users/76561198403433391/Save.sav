@@ -1,0 +1,4172 @@
+{
+  "$id": "1",
+  "$type": "PlayerProgression, Assembly-CSharp",
+  "TimePlayed": 38867.2344,
+  "Progression": 0,
+  "UnlockedChapters": {
+    "$id": "2",
+    "$type": "System.Collections.Generic.List`1[[ChapterCompletion, Assembly-CSharp]], mscorlib",
+    "$values": [
+      {
+        "$id": "3",
+        "$type": "ChapterCompletion, Assembly-CSharp",
+        "Chapter": {
+          "$id": "4",
+          "$type": "Chapter, Assembly-CSharp",
+          "Visibility": 0,
+          "Title": {
+            "$id": "5",
+            "$type": "LocalizableString, Assembly-CSharp",
+            "Localize": true,
+            "Key": "Chapter_1",
+            "Category": "Chapters",
+            "content": null
+          },
+          "Description": "",
+          "IconPath": "",
+          "Visible": true,
+          "NeedUnlock": true,
+          "levels": {
+            "$id": "6",
+            "$type": "C5.HashedArrayList`1[[ChapterLevelContainer, Assembly-CSharp]], Assembly-CSharp",
+            "$values": [
+              {
+                "$id": "7",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2600022784,
+                "Levels": {
+                  "$id": "8",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "9",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "7"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2600022784,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "10",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "7"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 4195291648,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "11",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_101",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "12",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_101",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "13",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_101_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "14",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_101",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": true,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "15",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 3591756800,
+                "Levels": {
+                  "$id": "16",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "17",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "15"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3591756800,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "18",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "15"
+                      },
+                      "AlternateLevel": {
+                        "$id": "19",
+                        "$type": "ChapterLevel, Assembly-CSharp",
+                        "Container": {
+                          "$ref": "15"
+                        },
+                        "AlternateLevel": null,
+                        "LevelId": 983942656,
+                        "IsMain": false,
+                        "IsAlternate": true
+                      },
+                      "LevelId": 3155943936,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "20",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "15"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1070573568,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "21",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_102",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "22",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_102",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "23",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_102_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "24",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_102",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "25",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 1764676352,
+                "Levels": {
+                  "$id": "26",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "27",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "25"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1764676352,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "28",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "25"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1889262848,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "29",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "25"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1244521728,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "30",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "25"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1167862528,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "31",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_103",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "32",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_103",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "33",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_103_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "34",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_103",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "35",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 1303481600,
+                "Levels": {
+                  "$id": "36",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "37",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "35"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1303481600,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "38",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "35"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 4033755136,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "39",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_104",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "40",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_104",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "41",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_104_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "42",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_104",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "43",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 878046208,
+                "Levels": {
+                  "$id": "44",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "45",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "43"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 878046208,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "46",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "43"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1699377408,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "47",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_105",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "48",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_105",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "49",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_105_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "50",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_105",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "51",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 1425322752,
+                "Levels": {
+                  "$id": "52",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "53",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "51"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1425322752,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "54",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "51"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 410742272,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "55",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_106",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "56",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_106",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "57",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_106_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "58",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_106",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "59",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 3867534848,
+                "Levels": {
+                  "$id": "60",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "61",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "59"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3867534848,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "62",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "59"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 529260544,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "63",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "59"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 941998080,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "64",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_107",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "65",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_107",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "66",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_107_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "67",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_107",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "68",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 199185408,
+                "Levels": {
+                  "$id": "69",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "70",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "68"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 199185408,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "71",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "68"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3652606976,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "72",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_108",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "73",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_108",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "74",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_108_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "75",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_108",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "76",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 646624256,
+                "Levels": {
+                  "$id": "77",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "78",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "76"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 646624256,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "79",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "76"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 590279680,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "80",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "76"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3138250240,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "81",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "76"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1395648768,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "82",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_109",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "83",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_109",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "84",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_109_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "85",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_109",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "86",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2084645632,
+                "Levels": {
+                  "$id": "87",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "88",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "86"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2084645632,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "89",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "86"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1073545728,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "90",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_110",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "91",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_110",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "92",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_110_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "93",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_110",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              }
+            ]
+          },
+          "PlayEndCutscene": true,
+          "EndCutscene": {
+            "$id": "94",
+            "$type": "ChapterLevel, Assembly-CSharp",
+            "Container": null,
+            "AlternateLevel": null,
+            "LevelId": 2397038336,
+            "IsMain": false,
+            "IsAlternate": false
+          },
+          "Id": 13375,
+          "Published": false,
+          "InContest": false,
+          "SteamWorkshopId": 0
+        },
+        "ChapterId": 13375,
+        "LevelCompletion": {
+          "$id": "95",
+          "$type": "System.Collections.Generic.Dictionary`2[[System.UInt64, mscorlib],[LevelCompletion, Assembly-CSharp]], mscorlib",
+          "2600022784": {
+            "$id": "96",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2600022784,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "3591756800": {
+            "$id": "97",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 3591756800,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "1764676352": {
+            "$id": "98",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 1764676352,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": true
+          },
+          "1303481600": {
+            "$id": "99",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 1303481600,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": true
+          },
+          "878046208": {
+            "$id": "100",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 878046208,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "1425322752": {
+            "$id": "101",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 1425322752,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "3867534848": {
+            "$id": "102",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 3867534848,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "199185408": {
+            "$id": "103",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 199185408,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "646624256": {
+            "$id": "104",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 646624256,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "2084645632": {
+            "$id": "105",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2084645632,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          }
+        },
+        "UnlockedChallenges": 2,
+        "FinishedLevels": 10
+      },
+      {
+        "$id": "106",
+        "$type": "ChapterCompletion, Assembly-CSharp",
+        "Chapter": {
+          "$id": "107",
+          "$type": "Chapter, Assembly-CSharp",
+          "Visibility": 0,
+          "Title": {
+            "$id": "108",
+            "$type": "LocalizableString, Assembly-CSharp",
+            "Localize": true,
+            "Key": "Chapter_2",
+            "Category": "Chapters",
+            "content": null
+          },
+          "Description": "",
+          "IconPath": "",
+          "Visible": true,
+          "NeedUnlock": true,
+          "levels": {
+            "$id": "109",
+            "$type": "C5.HashedArrayList`1[[ChapterLevelContainer, Assembly-CSharp]], Assembly-CSharp",
+            "$values": [
+              {
+                "$id": "110",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 1967923968,
+                "Levels": {
+                  "$id": "111",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "112",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "110"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1967923968,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "113",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "110"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3660562432,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "114",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "110"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 977622528,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "115",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_201",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "116",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_201",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "117",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_201_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "118",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_201",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "119",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2000037632,
+                "Levels": {
+                  "$id": "120",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "121",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "119"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2000037632,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "122",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "119"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2772014592,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "123",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_202",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "124",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_202",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "125",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_202_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "126",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_202",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "127",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2785170944,
+                "Levels": {
+                  "$id": "128",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "129",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "127"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2785170944,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "130",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "127"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 4088771072,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "131",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_203",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "132",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_203",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "133",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_203_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "134",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_203",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "135",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2049070848,
+                "Levels": {
+                  "$id": "136",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "137",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "135"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2049070848,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "138",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "135"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2014753536,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "139",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "135"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1551975680,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "140",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "135"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1252387584,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "141",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "135"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2295297792,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "142",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_204",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "143",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_204",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "144",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_204_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "145",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_204",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "146",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2758060544,
+                "Levels": {
+                  "$id": "147",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "148",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "146"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2758060544,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "149",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "146"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2550760704,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "150",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_205",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "151",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_205",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "152",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_205_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "153",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_205",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "154",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2820042752,
+                "Levels": {
+                  "$id": "155",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "156",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "154"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2820042752,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "157",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "154"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1462817536,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "158",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_206",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "159",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_206",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "160",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_206_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "161",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_206",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "162",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 3793225216,
+                "Levels": {
+                  "$id": "163",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "164",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "162"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3793225216,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "165",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "162"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1213389056,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "166",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_207",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "167",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_207",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "168",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_207_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "169",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_207",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "170",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 1653152512,
+                "Levels": {
+                  "$id": "171",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "172",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "170"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1653152512,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "173",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "170"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 676390400,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "174",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_208",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "175",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_208",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "176",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_208_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "177",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_208",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "178",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2201098496,
+                "Levels": {
+                  "$id": "179",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "180",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "178"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2201098496,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "181",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "178"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 131238912,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "182",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_209",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "183",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_209",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "184",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_209_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "185",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_209",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "186",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 1729242368,
+                "Levels": {
+                  "$id": "187",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "188",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "186"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1729242368,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "189",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "186"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3395061760,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "190",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_210",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "191",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_210",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "192",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_210_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "193",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_210",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              }
+            ]
+          },
+          "PlayEndCutscene": true,
+          "EndCutscene": {
+            "$id": "194",
+            "$type": "ChapterLevel, Assembly-CSharp",
+            "Container": null,
+            "AlternateLevel": null,
+            "LevelId": 4076853248,
+            "IsMain": false,
+            "IsAlternate": false
+          },
+          "Id": 74580,
+          "Published": false,
+          "InContest": false,
+          "SteamWorkshopId": 0
+        },
+        "ChapterId": 74580,
+        "LevelCompletion": {
+          "$id": "195",
+          "$type": "System.Collections.Generic.Dictionary`2[[System.UInt64, mscorlib],[LevelCompletion, Assembly-CSharp]], mscorlib",
+          "1967923968": {
+            "$id": "196",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 1967923968,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": true
+          },
+          "2000037632": {
+            "$id": "197",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2000037632,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "2785170944": {
+            "$id": "198",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2785170944,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": true
+          },
+          "2049070848": {
+            "$id": "199",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2049070848,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "2758060544": {
+            "$id": "200",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2758060544,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": true
+          },
+          "2820042752": {
+            "$id": "201",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2820042752,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "3793225216": {
+            "$id": "202",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 3793225216,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": true
+          },
+          "1653152512": {
+            "$id": "203",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 1653152512,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "2201098496": {
+            "$id": "204",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2201098496,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "1729242368": {
+            "$id": "205",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 1729242368,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          }
+        },
+        "UnlockedChallenges": 4,
+        "FinishedLevels": 10
+      },
+      {
+        "$id": "206",
+        "$type": "ChapterCompletion, Assembly-CSharp",
+        "Chapter": {
+          "$id": "207",
+          "$type": "Chapter, Assembly-CSharp",
+          "Visibility": 0,
+          "Title": {
+            "$id": "208",
+            "$type": "LocalizableString, Assembly-CSharp",
+            "Localize": true,
+            "Key": "Chapter_3",
+            "Category": "Chapters",
+            "content": null
+          },
+          "Description": "",
+          "IconPath": "",
+          "Visible": true,
+          "NeedUnlock": true,
+          "levels": {
+            "$id": "209",
+            "$type": "C5.HashedArrayList`1[[ChapterLevelContainer, Assembly-CSharp]], Assembly-CSharp",
+            "$values": [
+              {
+                "$id": "210",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 3497639936,
+                "Levels": {
+                  "$id": "211",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "212",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "210"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3497639936,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "213",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_301",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "214",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_301",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "215",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_301_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "216",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_301",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "217",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 1625110272,
+                "Levels": {
+                  "$id": "218",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "219",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "217"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1625110272,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "220",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_302",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "221",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_302",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "222",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_302_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "223",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_302",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "224",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 1244701440,
+                "Levels": {
+                  "$id": "225",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "226",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "224"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1244701440,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "227",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "224"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 47309312,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "228",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_303",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "229",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_303",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "230",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_303_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "231",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_303",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "232",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2998451712,
+                "Levels": {
+                  "$id": "233",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "234",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "232"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2998451712,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "235",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "232"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 4099388416,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "236",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_304",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "237",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_304",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "238",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_304_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "239",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_304",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "240",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 26817024,
+                "Levels": {
+                  "$id": "241",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "242",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "240"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 26817024,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "243",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "240"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2038235904,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "244",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "240"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1997549312,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "245",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_305",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "246",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_305",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "247",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_305_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "248",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_305",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "249",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 3194420736,
+                "Levels": {
+                  "$id": "250",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "251",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "249"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3194420736,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "252",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "249"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1954563328,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "253",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_306",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "254",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_306",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "255",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_306_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "256",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_306",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "257",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 3963490816,
+                "Levels": {
+                  "$id": "258",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "259",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "257"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3963490816,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "260",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_307",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "261",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_307",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "262",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_307_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "263",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_307",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "264",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2154769152,
+                "Levels": {
+                  "$id": "265",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "266",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "264"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2154769152,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "267",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_308",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "268",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_308",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "269",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_308_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "270",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_308",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "271",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 685766144,
+                "Levels": {
+                  "$id": "272",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "273",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "271"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 685766144,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "274",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "271"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3242028032,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "275",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "271"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3104314880,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "276",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_309",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "277",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_309",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "278",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_309_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "279",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_309",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "280",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2024873216,
+                "Levels": {
+                  "$id": "281",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "282",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "280"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2024873216,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "283",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "280"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1909902592,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "284",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_310",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "285",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_310",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "286",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_310_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "287",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_310",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              }
+            ]
+          },
+          "PlayEndCutscene": true,
+          "EndCutscene": {
+            "$id": "288",
+            "$type": "ChapterLevel, Assembly-CSharp",
+            "Container": null,
+            "AlternateLevel": null,
+            "LevelId": 1178698496,
+            "IsMain": false,
+            "IsAlternate": false
+          },
+          "Id": 84754,
+          "Published": false,
+          "InContest": false,
+          "SteamWorkshopId": 0
+        },
+        "ChapterId": 84754,
+        "LevelCompletion": {
+          "$id": "289",
+          "$type": "System.Collections.Generic.Dictionary`2[[System.UInt64, mscorlib],[LevelCompletion, Assembly-CSharp]], mscorlib",
+          "3497639936": {
+            "$id": "290",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 3497639936,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "1625110272": {
+            "$id": "291",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 1625110272,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": true
+          },
+          "1244701440": {
+            "$id": "292",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 1244701440,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "2998451712": {
+            "$id": "293",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2998451712,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "26817024": {
+            "$id": "294",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 26817024,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "3194420736": {
+            "$id": "295",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 3194420736,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "3963490816": {
+            "$id": "296",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 3963490816,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "2154769152": {
+            "$id": "297",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2154769152,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "685766144": {
+            "$id": "298",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 685766144,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "2024873216": {
+            "$id": "299",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2024873216,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          }
+        },
+        "UnlockedChallenges": 1,
+        "FinishedLevels": 10
+      },
+      {
+        "$id": "300",
+        "$type": "ChapterCompletion, Assembly-CSharp",
+        "Chapter": {
+          "$id": "301",
+          "$type": "Chapter, Assembly-CSharp",
+          "Visibility": 0,
+          "Title": {
+            "$id": "302",
+            "$type": "LocalizableString, Assembly-CSharp",
+            "Localize": true,
+            "Key": "Chapter_4",
+            "Category": "Chapters",
+            "content": null
+          },
+          "Description": "",
+          "IconPath": "",
+          "Visible": true,
+          "NeedUnlock": true,
+          "levels": {
+            "$id": "303",
+            "$type": "C5.HashedArrayList`1[[ChapterLevelContainer, Assembly-CSharp]], Assembly-CSharp",
+            "$values": [
+              {
+                "$id": "304",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 1640930048,
+                "Levels": {
+                  "$id": "305",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "306",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "304"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1640930048,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "307",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "304"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2416734464,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "308",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_401",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "309",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_401",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "310",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_401_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "311",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_401",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "312",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2977052160,
+                "Levels": {
+                  "$id": "313",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "314",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "312"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2977052160,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "315",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "312"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 847650304,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "316",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_402",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "317",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_402",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "318",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_402_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "319",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_402",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "320",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2816101888,
+                "Levels": {
+                  "$id": "321",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "322",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "320"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2816101888,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "323",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "320"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1094117632,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "324",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_403",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "325",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_403",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "326",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_403_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "327",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_403",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "328",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2495589120,
+                "Levels": {
+                  "$id": "329",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "330",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "328"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2495589120,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "331",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "328"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 69709312,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "332",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_404",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "333",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_404",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "334",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_404_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "335",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_404",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "336",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 513138176,
+                "Levels": {
+                  "$id": "337",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "338",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "336"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 513138176,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "339",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "336"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 420152832,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "340",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_405",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "341",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_405",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "342",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_405_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "343",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_405",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "344",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 1559672064,
+                "Levels": {
+                  "$id": "345",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "346",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "344"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1559672064,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "347",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_406",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "348",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_406",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "349",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_406_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "350",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_406",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "351",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 1058707456,
+                "Levels": {
+                  "$id": "352",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "353",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "351"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1058707456,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "354",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_407",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "355",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_407",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "356",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_407_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "357",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_407",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "358",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 1276224256,
+                "Levels": {
+                  "$id": "359",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "360",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "358"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1276224256,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "361",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "358"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1032761856,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "362",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_408",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "363",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_408",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "364",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_408_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "365",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_408",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "366",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2987686912,
+                "Levels": {
+                  "$id": "367",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "368",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "366"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2987686912,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "369",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "366"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1350290688,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "370",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_409",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "371",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_409",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "372",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_409_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "373",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_409",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "374",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 1967511808,
+                "Levels": {
+                  "$id": "375",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "376",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "374"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1967511808,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "377",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "374"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 823172096,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "378",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "374"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2270166272,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "379",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "374"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3548156416,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "380",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_410",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "381",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_410",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "382",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_410_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "383",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_410",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              }
+            ]
+          },
+          "PlayEndCutscene": true,
+          "EndCutscene": {
+            "$id": "384",
+            "$type": "ChapterLevel, Assembly-CSharp",
+            "Container": null,
+            "AlternateLevel": null,
+            "LevelId": 753421312,
+            "IsMain": false,
+            "IsAlternate": false
+          },
+          "Id": 78785,
+          "Published": false,
+          "InContest": false,
+          "SteamWorkshopId": 0
+        },
+        "ChapterId": 78785,
+        "LevelCompletion": {
+          "$id": "385",
+          "$type": "System.Collections.Generic.Dictionary`2[[System.UInt64, mscorlib],[LevelCompletion, Assembly-CSharp]], mscorlib",
+          "1640930048": {
+            "$id": "386",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 1640930048,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "2977052160": {
+            "$id": "387",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2977052160,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "2816101888": {
+            "$id": "388",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2816101888,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "2495589120": {
+            "$id": "389",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2495589120,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "513138176": {
+            "$id": "390",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 513138176,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "1559672064": {
+            "$id": "391",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 1559672064,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": true
+          },
+          "1058707456": {
+            "$id": "392",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 1058707456,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "1276224256": {
+            "$id": "393",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 1276224256,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "2987686912": {
+            "$id": "394",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2987686912,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "1967511808": {
+            "$id": "395",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 1967511808,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": true
+          }
+        },
+        "UnlockedChallenges": 2,
+        "FinishedLevels": 10
+      },
+      {
+        "$id": "396",
+        "$type": "ChapterCompletion, Assembly-CSharp",
+        "Chapter": {
+          "$id": "397",
+          "$type": "Chapter, Assembly-CSharp",
+          "Visibility": 0,
+          "Title": {
+            "$id": "398",
+            "$type": "LocalizableString, Assembly-CSharp",
+            "Localize": true,
+            "Key": "Chapter_5",
+            "Category": "Chapters",
+            "content": null
+          },
+          "Description": "",
+          "IconPath": "",
+          "Visible": true,
+          "NeedUnlock": false,
+          "levels": {
+            "$id": "399",
+            "$type": "C5.HashedArrayList`1[[ChapterLevelContainer, Assembly-CSharp]], Assembly-CSharp",
+            "$values": [
+              {
+                "$id": "400",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 1277249280,
+                "Levels": {
+                  "$id": "401",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "402",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "400"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1277249280,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "403",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "400"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3729728000,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "404",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_501",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "405",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_501",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "406",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_501_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "407",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_501",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": true,
+                "ShowMutationChart": true
+              },
+              {
+                "$id": "408",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2088066816,
+                "Levels": {
+                  "$id": "409",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "410",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "408"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2088066816,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "411",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "408"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1103706368,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "412",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "408"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3855501312,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "413",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_502",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "414",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_502",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "415",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_502_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "416",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_502",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "417",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2028766976,
+                "Levels": {
+                  "$id": "418",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "419",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "417"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2028766976,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "420",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "417"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 57321984,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "421",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "417"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3807332352,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "422",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_503",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "423",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_503",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "424",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_503_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "425",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_503",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "426",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 4137110016,
+                "Levels": {
+                  "$id": "427",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "428",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "426"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 4137110016,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "429",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_504",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "430",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_504",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "431",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_504_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "432",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_504",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "433",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2096353536,
+                "Levels": {
+                  "$id": "434",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "435",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "433"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2096353536,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "436",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "433"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2121255168,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "437",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "433"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2011105024,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "438",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_505",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "439",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_505",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "440",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_505_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "441",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_505",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "442",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 2638992128,
+                "Levels": {
+                  "$id": "443",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "444",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "442"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2638992128,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "445",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "442"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1710738688,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "446",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_506",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "447",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_506",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "448",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_506_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "449",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_506",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "450",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 1933557504,
+                "Levels": {
+                  "$id": "451",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "452",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "450"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1933557504,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "453",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "450"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2029299968,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "454",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_507",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "455",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_507",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "456",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_507_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "457",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_507",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "458",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 3853884416,
+                "Levels": {
+                  "$id": "459",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "460",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "458"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3853884416,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "461",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "458"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 1697830144,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "462",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_508",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "463",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_508",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "464",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_508_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "465",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_508",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "466",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 3155646976,
+                "Levels": {
+                  "$id": "467",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "468",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "466"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3155646976,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "469",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "466"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 2479439104,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "470",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_509",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "471",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_509",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "472",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_509_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "473",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_509",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              },
+              {
+                "$id": "474",
+                "$type": "ChapterLevelContainer, Assembly-CSharp",
+                "Id": 3406400000,
+                "Levels": {
+                  "$id": "475",
+                  "$type": "C5.HashedArrayList`1[[ChapterLevel, Assembly-CSharp]], Assembly-CSharp",
+                  "$values": [
+                    {
+                      "$id": "476",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "474"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 3406400000,
+                      "IsMain": false,
+                      "IsAlternate": false
+                    },
+                    {
+                      "$id": "477",
+                      "$type": "ChapterLevel, Assembly-CSharp",
+                      "Container": {
+                        "$ref": "474"
+                      },
+                      "AlternateLevel": null,
+                      "LevelId": 881974784,
+                      "IsMain": true,
+                      "IsAlternate": false
+                    }
+                  ]
+                },
+                "Title": {
+                  "$id": "478",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Level_510",
+                  "Category": "Levels",
+                  "content": null
+                },
+                "Objective": {
+                  "$id": "479",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Objective_510",
+                  "Category": "Objectives",
+                  "content": null
+                },
+                "ChallengeTitle": {
+                  "$id": "480",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_510_Title",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "Challenge": {
+                  "$id": "481",
+                  "$type": "LocalizableString, Assembly-CSharp",
+                  "Localize": true,
+                  "Key": "Challenge_510",
+                  "Category": "Challenges",
+                  "content": null
+                },
+                "ShowControls": false,
+                "ShowMutationChart": false
+              }
+            ]
+          },
+          "PlayEndCutscene": true,
+          "EndCutscene": {
+            "$id": "482",
+            "$type": "ChapterLevel, Assembly-CSharp",
+            "Container": null,
+            "AlternateLevel": null,
+            "LevelId": 4247475712,
+            "IsMain": false,
+            "IsAlternate": false
+          },
+          "Id": 2309440256,
+          "Published": false,
+          "InContest": false,
+          "SteamWorkshopId": 0
+        },
+        "ChapterId": 2309440256,
+        "LevelCompletion": {
+          "$id": "483",
+          "$type": "System.Collections.Generic.Dictionary`2[[System.UInt64, mscorlib],[LevelCompletion, Assembly-CSharp]], mscorlib",
+          "1277249280": {
+            "$id": "484",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 1277249280,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": true
+          },
+          "2088066816": {
+            "$id": "485",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2088066816,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "2028766976": {
+            "$id": "486",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2028766976,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": true
+          },
+          "4137110016": {
+            "$id": "487",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 4137110016,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "2096353536": {
+            "$id": "488",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2096353536,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "2638992128": {
+            "$id": "489",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 2638992128,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "1933557504": {
+            "$id": "490",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 1933557504,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": true
+          },
+          "3853884416": {
+            "$id": "491",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 3853884416,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "3155646976": {
+            "$id": "492",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 3155646976,
+            "Locked": false,
+            "Finished": true,
+            "Played": true,
+            "ChallengeComplete": false
+          },
+          "3406400000": {
+            "$id": "493",
+            "$type": "LevelCompletion, Assembly-CSharp",
+            "LevelId": 3406400000,
+            "Locked": false,
+            "Finished": false,
+            "Played": true,
+            "ChallengeComplete": false
+          }
+        },
+        "UnlockedChallenges": 3,
+        "FinishedLevels": 9
+      }
+    ]
+  }
+}

@@ -1,0 +1,764 @@
+{
+  "$id": "1",
+  "$type": "System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[Framework.Inputs.BaseInput, Assembly-CSharp]], mscorlib",
+  "Gameplay,Load Editor,0": null,
+  "Gameplay,Load Editor,1": null,
+  "Gameplay,Toggle Stop Time,0": {
+    "$id": "2",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 32,
+    "mode": 0,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Toggle Stop Time,1": null,
+  "Gameplay,Zoom In,0": {
+    "$id": "3",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 270,
+    "mode": 2,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Zoom In,1": {
+    "$id": "4",
+    "$type": "Framework.Inputs.AxisInput, Assembly-CSharp",
+    "mode": 1,
+    "axisName": "Mouse ScrollWheel",
+    "raw": false,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "AxisInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Zoom Out,0": {
+    "$id": "5",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 269,
+    "mode": 2,
+    "defaulValue": -1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Zoom Out,1": {
+    "$id": "6",
+    "$type": "Framework.Inputs.AxisInput, Assembly-CSharp",
+    "mode": 0,
+    "axisName": "Mouse ScrollWheel",
+    "raw": false,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "AxisInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Increase Time,0": {
+    "$id": "7",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 280,
+    "mode": 0,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Increase Time,1": {
+    "$id": "8",
+    "$type": "Framework.Inputs.AxisInput, Assembly-CSharp",
+    "mode": 0,
+    "axisName": "Mouse ScrollWheel",
+    "raw": false,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": [
+        306
+      ]
+    },
+    "name": "AxisInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Decrease Time,0": {
+    "$id": "9",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 281,
+    "mode": 0,
+    "defaulValue": -1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Decrease Time,1": {
+    "$id": "10",
+    "$type": "Framework.Inputs.AxisInput, Assembly-CSharp",
+    "mode": 1,
+    "axisName": "Mouse ScrollWheel",
+    "raw": false,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": [
+        306
+      ]
+    },
+    "name": "AxisInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Move Camera Up,0": {
+    "$id": "11",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 273,
+    "mode": 2,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Move Camera Up,1": {
+    "$id": "12",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 119,
+    "mode": 2,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Move Camera Down,0": {
+    "$id": "13",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 274,
+    "mode": 2,
+    "defaulValue": -1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Move Camera Down,1": {
+    "$id": "14",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 115,
+    "mode": 2,
+    "defaulValue": -1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Move Camera Right,0": {
+    "$id": "15",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 275,
+    "mode": 2,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Move Camera Right,1": {
+    "$id": "16",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 100,
+    "mode": 2,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Move Camera Left,0": {
+    "$id": "17",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 276,
+    "mode": 2,
+    "defaulValue": -1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Move Camera Left,1": {
+    "$id": "18",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 97,
+    "mode": 2,
+    "defaulValue": -1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Select Sacrifice,0": {
+    "$id": "19",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 49,
+    "mode": 1,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Select Sacrifice,1": null,
+  "Gameplay,Select Contamination,0": {
+    "$id": "20",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 50,
+    "mode": 1,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Select Contamination,1": null,
+  "Gameplay,Select Overlord,0": {
+    "$id": "21",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 51,
+    "mode": 1,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Select Overlord,1": null,
+  "Gameplay,Select Crawler,0": {
+    "$id": "22",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 52,
+    "mode": 1,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Select Crawler,1": null,
+  "Gameplay,Select Tank,0": {
+    "$id": "23",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 53,
+    "mode": 1,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Select Tank,1": null,
+  "Gameplay,Select Boomer,0": {
+    "$id": "24",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 54,
+    "mode": 1,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Select Boomer,1": null,
+  "Gameplay,Select Runner,0": {
+    "$id": "25",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 55,
+    "mode": 1,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Select Runner,1": null,
+  "Gameplay,Select Jumper,0": {
+    "$id": "26",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 56,
+    "mode": 1,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Select Jumper,1": null,
+  "Gameplay,Select Screamer,0": {
+    "$id": "27",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 57,
+    "mode": 1,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Select Screamer,1": null,
+  "Gameplay,Select Spitter,0": {
+    "$id": "28",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 48,
+    "mode": 1,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Select Spitter,1": null,
+  "Gameplay,Drag Camera,0": {
+    "$id": "29",
+    "$type": "Framework.Inputs.MouseInput, Assembly-CSharp",
+    "button": 0,
+    "mode": 2,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "MouseInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Drag Camera,1": {
+    "$id": "30",
+    "$type": "Framework.Inputs.MouseInput, Assembly-CSharp",
+    "button": 2,
+    "mode": 2,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "MouseInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Unselect Mutation,0": {
+    "$id": "31",
+    "$type": "Framework.Inputs.MouseInput, Assembly-CSharp",
+    "button": 1,
+    "mode": 1,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "MouseInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Unselect Mutation,1": null,
+  "Gameplay,Mutate Zombie,0": {
+    "$id": "32",
+    "$type": "Framework.Inputs.MouseInput, Assembly-CSharp",
+    "button": 0,
+    "mode": 1,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "MouseInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Mutate Zombie,1": null,
+  "Gameplay,Cycle Selection,0": {
+    "$id": "33",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 9,
+    "mode": 0,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Cycle Selection,1": null,
+  "Gameplay,Toggle HUD,0": {
+    "$id": "34",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 286,
+    "mode": 0,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": [
+        304
+      ]
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Toggle HUD,1": null,
+  "Gameplay,Spawn Zombie Left,0": {
+    "$id": "35",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 282,
+    "mode": 1,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Spawn Zombie Left,1": null,
+  "Gameplay,Spawn Zombie Right,0": {
+    "$id": "36",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 283,
+    "mode": 1,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Spawn Zombie Right,1": null,
+  "Gameplay,Toggle Infinite DNA,0": {
+    "$id": "37",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 284,
+    "mode": 1,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Gameplay,Toggle Infinite DNA,1": null,
+  "Level Editor,Zoom In,0": {
+    "$id": "38",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 270,
+    "mode": 2,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Level Editor,Zoom In,1": {
+    "$id": "39",
+    "$type": "Framework.Inputs.AxisInput, Assembly-CSharp",
+    "mode": 1,
+    "axisName": "Mouse ScrollWheel",
+    "raw": false,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "AxisInput",
+    "hideFlags": 1
+  },
+  "Level Editor,Zoom Out,0": {
+    "$id": "40",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 269,
+    "mode": 2,
+    "defaulValue": -1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Level Editor,Zoom Out,1": {
+    "$id": "41",
+    "$type": "Framework.Inputs.AxisInput, Assembly-CSharp",
+    "mode": 0,
+    "axisName": "Mouse ScrollWheel",
+    "raw": false,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "AxisInput",
+    "hideFlags": 1
+  },
+  "Level Editor,Move Camera Up,0": {
+    "$id": "42",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 273,
+    "mode": 2,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Level Editor,Move Camera Up,1": {
+    "$id": "43",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 119,
+    "mode": 2,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Level Editor,Move Camera Down,0": {
+    "$id": "44",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 274,
+    "mode": 2,
+    "defaulValue": -1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Level Editor,Move Camera Down,1": {
+    "$id": "45",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 115,
+    "mode": 2,
+    "defaulValue": -1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Level Editor,Move Camera Right,0": {
+    "$id": "46",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 275,
+    "mode": 2,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Level Editor,Move Camera Right,1": {
+    "$id": "47",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 100,
+    "mode": 2,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Level Editor,Move Camera Left,0": {
+    "$id": "48",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 276,
+    "mode": 2,
+    "defaulValue": -1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Level Editor,Move Camera Left,1": {
+    "$id": "49",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 97,
+    "mode": 2,
+    "defaulValue": -1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Level Editor,Drag Camera,0": {
+    "$id": "50",
+    "$type": "Framework.Inputs.MouseInput, Assembly-CSharp",
+    "button": 2,
+    "mode": 2,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "MouseInput",
+    "hideFlags": 1
+  },
+  "Level Editor,Drag Camera,1": null,
+  "General,Open Console,0": {
+    "$id": "51",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 112,
+    "mode": 1,
+    "defaulValue": 0.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": [
+        304
+      ]
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "General,Open Console,1": null,
+  "General,Stop Demo Timer,0": {
+    "$id": "52",
+    "$type": "Framework.Inputs.AxisInput, Assembly-CSharp",
+    "mode": 2,
+    "axisName": "Mouse Y",
+    "raw": true,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "AxisInput",
+    "hideFlags": 1
+  },
+  "General,Stop Demo Timer,1": {
+    "$id": "53",
+    "$type": "Framework.Inputs.AxisInput, Assembly-CSharp",
+    "mode": 2,
+    "axisName": "Mouse X",
+    "raw": true,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "AxisInput",
+    "hideFlags": 1
+  },
+  "General,Escape,0": {
+    "$id": "54",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 27,
+    "mode": 1,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "General,Escape,1": null,
+  "Cutscene,Toggle Pause,0": {
+    "$id": "55",
+    "$type": "Framework.Inputs.KeyboardInput, Assembly-CSharp",
+    "key": 27,
+    "mode": 1,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "KeyboardInput",
+    "hideFlags": 1
+  },
+  "Cutscene,Toggle Pause,1": null,
+  "Cutscene,Start Skip,0": {
+    "$id": "56",
+    "$type": "Framework.Inputs.AnyInput, Assembly-CSharp",
+    "mode": 0,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "AnyInput",
+    "hideFlags": 1
+  },
+  "Cutscene,Start Skip,1": null,
+  "Cutscene,Stop Skip,0": {
+    "$id": "57",
+    "$type": "Framework.Inputs.AnyInput, Assembly-CSharp",
+    "mode": 1,
+    "defaulValue": 1.0,
+    "modifiers": {
+      "$type": "UnityEngine.KeyCode[], UnityEngine.CoreModule",
+      "$values": []
+    },
+    "name": "AnyInput",
+    "hideFlags": 1
+  },
+  "Cutscene,Stop Skip,1": null
+}
